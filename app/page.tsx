@@ -123,7 +123,7 @@ const Navbar = () => {
         </Link>
       ) : (
         <div className="flex items-center gap-5">
-          <Button>Dashboard</Button>
+            <Button onClick={() => window.location.href = "/dashboard"}>Dashboard</Button>
           <UserButton />
         </div>
       )}
